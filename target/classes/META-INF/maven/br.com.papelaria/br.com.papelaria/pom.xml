@@ -49,13 +49,15 @@
 	</dependencies>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-		<finalName>app-papelaria</finalName>
-	</build>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <configuration>
+                <mainClass>br.com.projeto.PapelariaApplication</mainClass>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 
 </project>
